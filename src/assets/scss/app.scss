@@ -1,0 +1,22 @@
+@import "normalize";
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  background: #eee;
+}
+body {
+  font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+  font-size: 14px;
+  line-height: 150%;
+}
+
+#app {
+  background-color: red;
+  margin: 50px auto;
+  width: 90%;
+  min-width: 1024px;
+  height: 780px;
+}

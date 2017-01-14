@@ -1,0 +1,33 @@
+.email-content {
+  position: relative;
+  flex: 2;
+  background-color: #fff;
+  border-left: 1px solid #ddd;
+  .delete {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .header {
+    background: #f5f5f5;
+    border-bottom: 1px solid #eee;
+    padding: 10px 15px;
+    .subject {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    .time {
+      color: #878787;
+      float: right;
+    }
+    .email-from {
+      color: #878787;
+    }
+  }
+  .message {
+    padding: 20px 15px 0 15px;
+    text-indent: 2em;
+  }
+}
