@@ -1,7 +1,7 @@
 # React 示例项目
 
   This is a React Inbox demo based on [React Demo]
-![screenshort](./screenshot.png)
+![screenshot](./screenshot.png)
 
 ### Installation
 
